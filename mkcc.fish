@@ -21,6 +21,7 @@ begin
     echo "int main()" >> $fileName
     echo "{" >> $fileName
     echo "}" >> $fileName
+    git init
   else
     echo "引数の数が不正です"
   end
